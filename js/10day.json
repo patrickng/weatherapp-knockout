@@ -1,0 +1,930 @@
+{
+  "forecast": {
+    "simpleforecast": {
+      "forecastday": [
+        {
+          "avehumidity": 73,
+          "avewind": {
+            "degrees": 265,
+            "dir": "West",
+            "kph": 22,
+            "mph": 14
+          },
+          "conditions": "Partly Cloudy",
+          "date": {
+            "ampm": "PM",
+            "day": 15,
+            "epoch": "1376632800",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 15, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Thursday",
+            "weekday_short": "Thu",
+            "yday": 226,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "23",
+            "fahrenheit": "73"
+          },
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "low": {
+            "celsius": "16",
+            "fahrenheit": "61"
+          },
+          "maxhumidity": 78,
+          "maxwind": {
+            "degrees": 264,
+            "dir": "West",
+            "kph": 26,
+            "mph": 16
+          },
+          "minhumidity": 63,
+          "period": 1,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "partlycloudy",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 72,
+          "avewind": {
+            "degrees": 260,
+            "dir": "West",
+            "kph": 21,
+            "mph": 13
+          },
+          "conditions": "Partly Cloudy",
+          "date": {
+            "ampm": "PM",
+            "day": 16,
+            "epoch": "1376719200",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 16, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Friday",
+            "weekday_short": "Fri",
+            "yday": 227,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "23",
+            "fahrenheit": "73"
+          },
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "low": {
+            "celsius": "15",
+            "fahrenheit": "59"
+          },
+          "maxhumidity": 80,
+          "maxwind": {
+            "degrees": 265,
+            "dir": "West",
+            "kph": 26,
+            "mph": 16
+          },
+          "minhumidity": 58,
+          "period": 2,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "partlycloudy",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 81,
+          "avewind": {
+            "degrees": 242,
+            "dir": "WSW",
+            "kph": 21,
+            "mph": 13
+          },
+          "conditions": "Partly Cloudy",
+          "date": {
+            "ampm": "PM",
+            "day": 17,
+            "epoch": "1376805600",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 17, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Saturday",
+            "weekday_short": "Sat",
+            "yday": 228,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "21",
+            "fahrenheit": "70"
+          },
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "low": {
+            "celsius": "15",
+            "fahrenheit": "59"
+          },
+          "maxhumidity": 86,
+          "maxwind": {
+            "degrees": 243,
+            "dir": "WSW",
+            "kph": 22,
+            "mph": 14
+          },
+          "minhumidity": 64,
+          "period": 3,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "partlycloudy",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 75,
+          "avewind": {
+            "degrees": 246,
+            "dir": "WSW",
+            "kph": 11,
+            "mph": 7
+          },
+          "conditions": "Partly Cloudy",
+          "date": {
+            "ampm": "PM",
+            "day": 18,
+            "epoch": "1376892000",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 18, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Sunday",
+            "weekday_short": "Sun",
+            "yday": 229,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "23",
+            "fahrenheit": "73"
+          },
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "low": {
+            "celsius": "13",
+            "fahrenheit": "55"
+          },
+          "maxhumidity": 87,
+          "maxwind": {
+            "degrees": 244,
+            "dir": "WSW",
+            "kph": 14,
+            "mph": 9
+          },
+          "minhumidity": 57,
+          "period": 4,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "partlycloudy",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 82,
+          "avewind": {
+            "degrees": 221,
+            "dir": "SW",
+            "kph": 13,
+            "mph": 8
+          },
+          "conditions": "Partly Cloudy",
+          "date": {
+            "ampm": "PM",
+            "day": 19,
+            "epoch": "1376978400",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 19, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Monday",
+            "weekday_short": "Mon",
+            "yday": 230,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "21",
+            "fahrenheit": "70"
+          },
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "low": {
+            "celsius": "14",
+            "fahrenheit": "57"
+          },
+          "maxhumidity": 91,
+          "maxwind": {
+            "degrees": 229,
+            "dir": "SW",
+            "kph": 16,
+            "mph": 10
+          },
+          "minhumidity": 59,
+          "period": 5,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.01,
+            "mm": 0.3
+          },
+          "skyicon": "mostlysunny",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 82,
+          "avewind": {
+            "degrees": 240,
+            "dir": "WSW",
+            "kph": 13,
+            "mph": 8
+          },
+          "conditions": "Chance of Rain",
+          "date": {
+            "ampm": "PM",
+            "day": 20,
+            "epoch": "1377064800",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 20, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Tuesday",
+            "weekday_short": "Tue",
+            "yday": 231,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "21",
+            "fahrenheit": "70"
+          },
+          "icon": "chancerain",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/chancerain.gif",
+          "low": {
+            "celsius": "14",
+            "fahrenheit": "57"
+          },
+          "maxhumidity": 92,
+          "maxwind": {
+            "degrees": 242,
+            "dir": "WSW",
+            "kph": 16,
+            "mph": 10
+          },
+          "minhumidity": 62,
+          "period": 6,
+          "pop": 50,
+          "qpf_allday": {
+            "in": 0.07,
+            "mm": 1.8
+          },
+          "qpf_day": {
+            "in": 0.06,
+            "mm": 1.5
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "mostlysunny",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 76,
+          "avewind": {
+            "degrees": 253,
+            "dir": "WSW",
+            "kph": 16,
+            "mph": 10
+          },
+          "conditions": "Partly Cloudy",
+          "date": {
+            "ampm": "PM",
+            "day": 21,
+            "epoch": "1377151200",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 21, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Wednesday",
+            "weekday_short": "Wed",
+            "yday": 232,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "22",
+            "fahrenheit": "72"
+          },
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "low": {
+            "celsius": "14",
+            "fahrenheit": "57"
+          },
+          "maxhumidity": 88,
+          "maxwind": {
+            "degrees": 252,
+            "dir": "WSW",
+            "kph": 19,
+            "mph": 12
+          },
+          "minhumidity": 56,
+          "period": 7,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "mostlysunny",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 69,
+          "avewind": {
+            "degrees": 269,
+            "dir": "West",
+            "kph": 18,
+            "mph": 11
+          },
+          "conditions": "Partly Cloudy",
+          "date": {
+            "ampm": "PM",
+            "day": 22,
+            "epoch": "1377237600",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 22, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Thursday",
+            "weekday_short": "Thu",
+            "yday": 233,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "21",
+            "fahrenheit": "70"
+          },
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "low": {
+            "celsius": "14",
+            "fahrenheit": "57"
+          },
+          "maxhumidity": 85,
+          "maxwind": {
+            "degrees": 270,
+            "dir": "West",
+            "kph": 22,
+            "mph": 14
+          },
+          "minhumidity": 58,
+          "period": 8,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "sunny",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 72,
+          "avewind": {
+            "degrees": 272,
+            "dir": "West",
+            "kph": 13,
+            "mph": 8
+          },
+          "conditions": "Clear",
+          "date": {
+            "ampm": "PM",
+            "day": 23,
+            "epoch": "1377324000",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 23, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Friday",
+            "weekday_short": "Fri",
+            "yday": 234,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "21",
+            "fahrenheit": "70"
+          },
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "low": {
+            "celsius": "14",
+            "fahrenheit": "57"
+          },
+          "maxhumidity": 80,
+          "maxwind": {
+            "degrees": 279,
+            "dir": "West",
+            "kph": 18,
+            "mph": 11
+          },
+          "minhumidity": 55,
+          "period": 9,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "sunny",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        },
+        {
+          "avehumidity": 78,
+          "avewind": {
+            "degrees": 274,
+            "dir": "West",
+            "kph": 13,
+            "mph": 8
+          },
+          "conditions": "Clear",
+          "date": {
+            "ampm": "PM",
+            "day": 24,
+            "epoch": "1377410400",
+            "hour": 23,
+            "isdst": "1",
+            "min": "00",
+            "month": 8,
+            "monthname": "August",
+            "pretty": "11:00 PM PDT on August 24, 2013",
+            "sec": 0,
+            "tz_long": "America\/Los_Angeles",
+            "tz_short": "PDT",
+            "weekday": "Saturday",
+            "weekday_short": "Sat",
+            "yday": 235,
+            "year": 2013
+          },
+          "high": {
+            "celsius": "21",
+            "fahrenheit": "70"
+          },
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "low": {
+            "celsius": "14",
+            "fahrenheit": "57"
+          },
+          "maxhumidity": 86,
+          "maxwind": {
+            "degrees": 280,
+            "dir": "West",
+            "kph": 18,
+            "mph": 11
+          },
+          "minhumidity": 60,
+          "period": 10,
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "skyicon": "mostlysunny",
+          "snow_allday": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_day": {
+            "cm": 0,
+            "in": 0
+          },
+          "snow_night": {
+            "cm": 0,
+            "in": 0
+          }
+        }
+      ]
+    },
+    "txt_forecast": {
+      "date": "8:00 AM PDT",
+      "forecastday": [
+        {
+          "fcttext": "Overcast in the morning, then partly cloudy. Fog early. High of 73F. Breezy. Winds from the West at 10 to 20 mph.",
+          "fcttext_metric": "Overcast in the morning, then partly cloudy. Fog early. High of 23C. Windy. Winds from the West at 15 to 30 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 0,
+          "pop": "0",
+          "title": "Thursday"
+        },
+        {
+          "fcttext": "Mostly cloudy in the evening, then overcast. Fog overnight. Low of 61F. Winds from the WSW at 5 to 15 mph.",
+          "fcttext_metric": "Mostly cloudy in the evening, then overcast. Fog overnight. Low of 16C. Breezy. Winds from the WSW at 10 to 25 km\/h.",
+          "icon": "mostlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/mostlycloudy.gif",
+          "period": 1,
+          "pop": "0",
+          "title": "Thursday Night"
+        },
+        {
+          "fcttext": "Overcast in the morning, then partly cloudy. Fog early. High of 73F. Breezy. Winds from the WSW at 10 to 20 mph.",
+          "fcttext_metric": "Overcast in the morning, then partly cloudy. Fog early. High of 23C. Windy. Winds from the WSW at 15 to 30 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 2,
+          "pop": "0",
+          "title": "Friday"
+        },
+        {
+          "fcttext": "Overcast. Fog overnight. Low of 59F. Breezy. Winds from the WSW at 10 to 20 mph.",
+          "fcttext_metric": "Overcast. Fog overnight. Low of 15C. Windy. Winds from the WSW at 15 to 30 km\/h.",
+          "icon": "mostlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/mostlycloudy.gif",
+          "period": 3,
+          "pop": "0",
+          "title": "Friday Night"
+        },
+        {
+          "fcttext": "Overcast in the morning, then partly cloudy. Fog early. High of 70F. Winds from the WSW at 10 to 15 mph.",
+          "fcttext_metric": "Overcast in the morning, then partly cloudy. Fog early. High of 21C. Breezy. Winds from the WSW at 20 to 25 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 4,
+          "pop": "0",
+          "title": "Saturday"
+        },
+        {
+          "fcttext": "Mostly cloudy. Low of 59F. Winds from the West at 5 to 10 mph.",
+          "fcttext_metric": "Mostly cloudy. Low of 15C. Winds from the West at 10 to 15 km\/h.",
+          "icon": "mostlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/mostlycloudy.gif",
+          "period": 5,
+          "pop": "0",
+          "title": "Saturday Night"
+        },
+        {
+          "fcttext": "Partly cloudy in the morning, then clear. High of 73F. Winds from the WSW at 5 to 10 mph.",
+          "fcttext_metric": "Partly cloudy in the morning, then clear. High of 23C. Winds from the WSW at 5 to 15 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 6,
+          "pop": "0",
+          "title": "Sunday"
+        },
+        {
+          "fcttext": "Partly cloudy. Low of 55F. Winds from the SSW at 5 to 10 mph.",
+          "fcttext_metric": "Partly cloudy. Low of 13C. Winds from the SSW at 10 to 15 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 7,
+          "pop": "0",
+          "title": "Sunday Night"
+        },
+        {
+          "fcttext": "Clear. High of 70F. Winds from the SW at 5 to 10 mph.",
+          "fcttext_metric": "Clear. High of 21C. Breezy. Winds from the SW at 10 to 20 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 8,
+          "pop": "0",
+          "title": "Monday"
+        },
+        {
+          "fcttext": "Mostly cloudy. Low of 57F. Winds from the SW at 5 to 10 mph.",
+          "fcttext_metric": "Mostly cloudy. Low of 14C. Winds from the SW at 10 to 15 km\/h.",
+          "icon": "mostlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/mostlycloudy.gif",
+          "period": 9,
+          "pop": "0",
+          "title": "Monday Night"
+        },
+        {
+          "fcttext": "Clear with a chance of rain. High of 70F. Winds from the WSW at 5 to 10 mph. Chance of rain 50%.",
+          "fcttext_metric": "Clear with a chance of rain. High of 21C. Breezy. Winds from the WSW at 10 to 20 km\/h. Chance of rain 50%.",
+          "icon": "chancerain",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/chancerain.gif",
+          "period": 10,
+          "pop": "50",
+          "title": "Tuesday"
+        },
+        {
+          "fcttext": "Partly cloudy. Low of 57F. Winds from the SW at 5 to 10 mph.",
+          "fcttext_metric": "Partly cloudy. Low of 14C. Winds from the SW at 10 to 15 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 11,
+          "pop": "0",
+          "title": "Tuesday Night"
+        },
+        {
+          "fcttext": "Clear. High of 72F. Winds from the WSW at 5 to 15 mph.",
+          "fcttext_metric": "Clear. High of 22C. Breezy. Winds from the WSW at 10 to 20 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 12,
+          "pop": "0",
+          "title": "Wednesday"
+        },
+        {
+          "fcttext": "Clear. Low of 57F. Winds from the West at 5 to 15 mph.",
+          "fcttext_metric": "Clear. Low of 14C. Breezy. Winds from the West at 10 to 20 km\/h.",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "period": 13,
+          "pop": "0",
+          "title": "Wednesday Night"
+        },
+        {
+          "fcttext": "Clear. High of 70F. Winds from the West at 5 to 15 mph.",
+          "fcttext_metric": "Clear. High of 21C. Breezy. Winds from the West at 10 to 25 km\/h.",
+          "icon": "partlycloudy",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/partlycloudy.gif",
+          "period": 14,
+          "pop": "0",
+          "title": "Thursday"
+        },
+        {
+          "fcttext": "Clear. Low of 57F. Winds from the West at 5 to 10 mph.",
+          "fcttext_metric": "Clear. Low of 14C. Winds from the West at 5 to 15 km\/h.",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "period": 15,
+          "pop": "0",
+          "title": "Thursday Night"
+        },
+        {
+          "fcttext": "Clear. High of 70F. Winds from the West at 5 to 15 mph.",
+          "fcttext_metric": "Clear. High of 21C. Winds from the West at 5 to 20 km\/h.",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "period": 16,
+          "pop": "0",
+          "title": "Friday"
+        },
+        {
+          "fcttext": "Clear. Low of 57F. Winds from the West at 5 to 10 mph.",
+          "fcttext_metric": "Clear. Low of 14C. Winds from the West at 5 to 15 km\/h.",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "period": 17,
+          "pop": "0",
+          "title": "Friday Night"
+        },
+        {
+          "fcttext": "Clear. High of 70F. Winds from the West at 5 to 15 mph.",
+          "fcttext_metric": "Clear. High of 21C. Winds from the West at 5 to 20 km\/h.",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "period": 18,
+          "pop": "0",
+          "title": "Saturday"
+        },
+        {
+          "fcttext": "Clear. Low of 57F. Winds from the West at 5 to 10 mph.",
+          "fcttext_metric": "Clear. Low of 14C. Winds from the West at 10 to 15 km\/h.",
+          "icon": "clear",
+          "icon_url": "http:\/\/icons-ak.wxug.com\/i\/c\/k\/clear.gif",
+          "period": 19,
+          "pop": "0",
+          "title": "Saturday Night"
+        }
+      ]
+    }
+  },
+  "response": {
+    "features": {
+      "forecast10day": 1
+    },
+    "termsofService": "http:\/\/www.wunderground.com\/weather\/api\/d\/terms.html",
+    "version": "0.1"
+  }
+}
