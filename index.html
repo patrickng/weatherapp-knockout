@@ -22,52 +22,66 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div id="container" class="clearfix">
+            <div id="form-panel">
+                <form data-bind="submit: addLocation">
+                    <input type="text" name="location" placeholder="Format: City, State" data-bind="value: locationName"><button type="submit" data-bind="enable: locationName.length > 0">Submit</button>
+                </form>
+                <br>
 
-        <form data-bind="submit: addLocation">
-            <input type="text" name="location" placeholder="Enter City and State" data-bind="value: locationName"><button type="submit" data-bind="enable: locationName.length > 0">Submit</button>
-        </form>
-        <div>
-            Select a city to check its weather.
-            <ul data-bind="foreach: locations">
-                <li><a href="" data-bind="click: $parent.selectLocation, text: name"></a></li>
-            </ul>
-        </div>
-        <div data-bind="if: currentSelectedLocation">
-            <div data-bind="with: currentSelectedLocation">
-
-                <h1 data-bind="text: newLocation.name"></h1>
-                <ul>
-                    <li data-bind="click: function() {console.log(newLocation);newLocation.displayType('hourly')}">Hourly Forecast</li>
-                    <li data-bind="click: function() {newLocation.displayType('10day')}">10-Day Forecast</li>
+                Select a city to check its weather.
+                <ul data-bind="foreach: locations">
+                    <li><a href="" data-bind="click: $parent.selectLocation, text: name"></a></li>
                 </ul>
-                <div data-bind="visible: newLocation.displayType() == 'hourly'">
-                    <ul data-bind="foreach: newLocation.hourlyForecast">
-                        <li>
-                            <span data-bind="text: time"></span>
-                            <span data-bind="text: temperature"></span>
-                            <span data-bind="text: humidity"></span>
-                            <span data-bind="text: condition"></span>
-                            <img data-bind="attr: { src: condition_url }" />
-                        </li>
-                    </ul>
-                </div>
-                <div data-bind="visible: newLocation.displayType() == '10day'">
-                    <ul data-bind="foreach: newLocation.tenDayForecast">
-                        <li>
-                            <span data-bind="text: time"></span>
-                            <span data-bind="text: high"></span>
-                            <span data-bind="text: low"></span>
-                            <span data-bind="text: condition"></span>
-                            <img data-bind="attr: { src: condition_url }" />
-                        </li>
-                    </ul>
+            </div>
+            <div id="location-panel" data-bind="if: currentSelectedLocation, css: $root.displayLocationPanel">
+                <div data-bind="with: currentSelectedLocation">
+                    <div data-bind="with: newLocation">
+                        <h1 data-bind="text: name"></h1>
+                        <ul id="display-type" class="clearfix">
+                            <li data-bind="click: $parent.displayType.bind($data, 'hourly')">Hourly Forecast</li>
+                            <li data-bind="click: $parent.displayType.bind($data, '10day')">10-Day Forecast</li>
+                        </ul>
+                        <div data-bind="visible: $parent.displayType() == 'hourly'">
+                            <ul id="hourly-forecast" data-bind="foreach: hourlyForecast">
+                                <li class="clearfix">
+                                    <div class="dates">
+                                        <span class="time" data-bind="text: time"></span>
+                                        <!-- ko if: shouldShowDay -->
+                                        <span class="formatted-date" data-bind="text: formattedDate"></span>
+                                        <!-- /ko -->
+                                    </div>
+                                    <span class="temperature" data-bind="text: temperature"></span>
+                                    <div class="condition-wrapper">
+                                        <img data-bind="attr: { src: condition_url }" />
+                                        <span class="condition" data-bind="text: condition"></span>
+                                    </div>
+                                    <div class="humidity">
+                                        <span class="label">Humidity: </span>
+                                        <span data-bind="text: humidity"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div data-bind="visible: $parent.displayType() == '10day'">
+                            <ul id="tenday-forecast" data-bind="foreach: tenDayForecast">
+                                <li>
+                                    <span data-bind="text: time"></span>
+                                    <span data-bind="text: high"></span>
+                                    <span data-bind="text: low"></span>
+                                    <span data-bind="text: condition"></span>
+                                    <img data-bind="attr: { src: condition_url }" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/vendor/knockout-2.3.0.js"></script>
+        
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 

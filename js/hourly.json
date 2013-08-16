@@ -1,912 +1,2782 @@
-
 {
-	"response": {
-		"version": "0.1"
-		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
-		,"features": {
-		"hourly": 1
-		}
-	}
-		,
-	"hourly_forecast": [
-		{
-		"FCTTIME": {
-		"hour": "12","hour_padded": "12","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376593200","pretty": "12:00 PM PDT on August 15, 2013","civil": "12:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "70", "metric": "21"},
-		"dewpoint": {"english": "58", "metric": "14"},
-		"condition": "Clear",
-		"icon": "clear",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
-		"fctcode": "1",
-		"sky": "25",
-		"wspd": {"english": "13", "metric": "21"},
-		"wdir": {"dir": "West", "degrees": "260"},
-		"wx": "",
-		"uvi": "5",
-		"humidity": "67",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "70", "metric": "21"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.96", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "13","hour_padded": "13","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376596800","pretty": "1:00 PM PDT on August 15, 2013","civil": "1:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "71", "metric": "22"},
-		"dewpoint": {"english": "58", "metric": "15"},
-		"condition": "Clear",
-		"icon": "clear",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
-		"fctcode": "1",
-		"sky": "25",
-		"wspd": {"english": "15", "metric": "24"},
-		"wdir": {"dir": "West", "degrees": "260"},
-		"wx": "",
-		"uvi": "5",
-		"humidity": "65",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "71", "metric": "22"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.96", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "14","hour_padded": "14","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376600400","pretty": "2:00 PM PDT on August 15, 2013","civil": "2:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "73", "metric": "23"},
-		"dewpoint": {"english": "59", "metric": "15"},
-		"condition": "Clear",
-		"icon": "clear",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
-		"fctcode": "1",
-		"sky": "25",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "264"},
-		"wx": "",
-		"uvi": "6",
-		"humidity": "63",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "73", "metric": "23"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.95", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "15","hour_padded": "15","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376604000","pretty": "3:00 PM PDT on August 15, 2013","civil": "3:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "72", "metric": "22"},
-		"dewpoint": {"english": "58", "metric": "15"},
-		"condition": "Clear",
-		"icon": "clear",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
-		"fctcode": "1",
-		"sky": "25",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "264"},
-		"wx": "",
-		"uvi": "6",
-		"humidity": "64",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "72", "metric": "22"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.95", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "16","hour_padded": "16","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376607600","pretty": "4:00 PM PDT on August 15, 2013","civil": "4:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "71", "metric": "22"},
-		"dewpoint": {"english": "58", "metric": "14"},
-		"condition": "Clear",
-		"icon": "clear",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
-		"fctcode": "1",
-		"sky": "25",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "264"},
-		"wx": "",
-		"uvi": "6",
-		"humidity": "65",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "71", "metric": "22"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.95", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "17","hour_padded": "17","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376611200","pretty": "5:00 PM PDT on August 15, 2013","civil": "5:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "70", "metric": "21"},
-		"dewpoint": {"english": "57", "metric": "14"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "48",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "270"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "66",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "70", "metric": "21"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "0.00", "metric": "0.00"},
-		"pop": "0",
-		"mslp": {"english": "29.91", "metric": "1012"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "18","hour_padded": "18","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376614800","pretty": "6:00 PM PDT on August 15, 2013","civil": "6:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "68", "metric": "20"},
-		"dewpoint": {"english": "56", "metric": "14"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "48",
-		"wspd": {"english": "15", "metric": "24"},
-		"wdir": {"dir": "West", "degrees": "270"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "68",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "68", "metric": "20"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.91", "metric": "1012"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "19","hour_padded": "19","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376618400","pretty": "7:00 PM PDT on August 15, 2013","civil": "7:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "66", "metric": "19"},
-		"dewpoint": {"english": "56", "metric": "13"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "48",
-		"wspd": {"english": "14", "metric": "23"},
-		"wdir": {"dir": "West", "degrees": "270"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "71",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "66", "metric": "19"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.91", "metric": "1012"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "20","hour_padded": "20","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376622000","pretty": "8:00 PM PDT on August 15, 2013","civil": "8:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "64", "metric": "18"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "48",
-		"wspd": {"english": "13", "metric": "21"},
-		"wdir": {"dir": "West", "degrees": "270"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "73",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "64", "metric": "18"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.92", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "21","hour_padded": "21","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376625600","pretty": "9:00 PM PDT on August 15, 2013","civil": "9:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "64", "metric": "18"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "48",
-		"wspd": {"english": "12", "metric": "19"},
-		"wdir": {"dir": "West", "degrees": "270"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "75",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "64", "metric": "18"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.92", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "22","hour_padded": "22","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376629200","pretty": "10:00 PM PDT on August 15, 2013","civil": "10:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "63", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "48",
-		"wspd": {"english": "10", "metric": "16"},
-		"wdir": {"dir": "West", "degrees": "270"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "76",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "63", "metric": "17"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.92", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "23","hour_padded": "23","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "15","mday_padded": "15","yday": "226","isdst": "1","epoch": "1376632800","pretty": "11:00 PM PDT on August 15, 2013","civil": "11:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Thursday","weekday_name_night": "Thursday Night","weekday_name_abbrev": "Thu","weekday_name_unlang": "Thursday","weekday_name_night_unlang": "Thursday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "63", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "81",
-		"wspd": {"english": "9", "metric": "14"},
-		"wdir": {"dir": "West", "degrees": "262"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "78",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "63", "metric": "17"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "0.00", "metric": "0.00"},
-		"pop": "0",
-		"mslp": {"english": "29.97", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "0","hour_padded": "00","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376636400","pretty": "12:00 AM PDT on August 16, 2013","civil": "12:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "63", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "81",
-		"wspd": {"english": "9", "metric": "14"},
-		"wdir": {"dir": "West", "degrees": "262"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "78",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "63", "metric": "17"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.97", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "1","hour_padded": "01","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376640000","pretty": "1:00 AM PDT on August 16, 2013","civil": "1:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "63", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "81",
-		"wspd": {"english": "8", "metric": "13"},
-		"wdir": {"dir": "West", "degrees": "262"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "79",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "63", "metric": "17"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.97", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "2","hour_padded": "02","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376643600","pretty": "2:00 AM PDT on August 16, 2013","civil": "2:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "63", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "81",
-		"wspd": {"english": "8", "metric": "13"},
-		"wdir": {"dir": "WSW", "degrees": "244"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "79",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "63", "metric": "17"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.95", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "3","hour_padded": "03","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376647200","pretty": "3:00 AM PDT on August 16, 2013","civil": "3:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "62", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "81",
-		"wspd": {"english": "7", "metric": "12"},
-		"wdir": {"dir": "WSW", "degrees": "244"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "79",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "62", "metric": "17"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.95", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "4","hour_padded": "04","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376650800","pretty": "4:00 AM PDT on August 16, 2013","civil": "4:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "62", "metric": "16"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "81",
-		"wspd": {"english": "7", "metric": "11"},
-		"wdir": {"dir": "WSW", "degrees": "244"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "80",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "62", "metric": "16"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.95", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "5","hour_padded": "05","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376654400","pretty": "5:00 AM PDT on August 16, 2013","civil": "5:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "61", "metric": "16"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "99",
-		"wspd": {"english": "6", "metric": "10"},
-		"wdir": {"dir": "WSW", "degrees": "244"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "80",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "61", "metric": "16"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "0.00", "metric": "0.00"},
-		"pop": "0",
-		"mslp": {"english": "29.94", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "6","hour_padded": "06","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376658000","pretty": "6:00 AM PDT on August 16, 2013","civil": "6:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "62", "metric": "16"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "99",
-		"wspd": {"english": "6", "metric": "10"},
-		"wdir": {"dir": "WSW", "degrees": "244"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "80",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "62", "metric": "16"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.94", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "7","hour_padded": "07","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376661600","pretty": "7:00 AM PDT on August 16, 2013","civil": "7:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "62", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/fog.gif",
-		"fctcode": "6",
-		"sky": "99",
-		"wspd": {"english": "7", "metric": "11"},
-		"wdir": {"dir": "WSW", "degrees": "244"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "79",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "62", "metric": "17"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.94", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "8","hour_padded": "08","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376665200","pretty": "8:00 AM PDT on August 16, 2013","civil": "8:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "63", "metric": "17"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/fog.gif",
-		"fctcode": "6",
-		"sky": "99",
-		"wspd": {"english": "7", "metric": "11"},
-		"wdir": {"dir": "WSW", "degrees": "252"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "79",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "63", "metric": "17"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.97", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "9","hour_padded": "09","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376668800","pretty": "9:00 AM PDT on August 16, 2013","civil": "9:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "64", "metric": "18"},
-		"dewpoint": {"english": "56", "metric": "13"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/fog.gif",
-		"fctcode": "6",
-		"sky": "99",
-		"wspd": {"english": "8", "metric": "13"},
-		"wdir": {"dir": "WSW", "degrees": "252"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "76",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "64", "metric": "18"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.97", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "10","hour_padded": "10","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376672400","pretty": "10:00 AM PDT on August 16, 2013","civil": "10:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "65", "metric": "18"},
-		"dewpoint": {"english": "56", "metric": "14"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/fog.gif",
-		"fctcode": "6",
-		"sky": "99",
-		"wspd": {"english": "10", "metric": "16"},
-		"wdir": {"dir": "WSW", "degrees": "252"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "74",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "65", "metric": "18"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.97", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "11","hour_padded": "11","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376676000","pretty": "11:00 AM PDT on August 16, 2013","civil": "11:00 AM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "AM","tz": "","age": ""
-		},
-		"temp": {"english": "66", "metric": "19"},
-		"dewpoint": {"english": "57", "metric": "14"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "60",
-		"wspd": {"english": "11", "metric": "18"},
-		"wdir": {"dir": "WSW", "degrees": "255"},
-		"wx": "",
-		"uvi": "4",
-		"humidity": "71",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "66", "metric": "19"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "0.00", "metric": "0.00"},
-		"pop": "0",
-		"mslp": {"english": "29.98", "metric": "1015"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "12","hour_padded": "12","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376679600","pretty": "12:00 PM PDT on August 16, 2013","civil": "12:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "68", "metric": "20"},
-		"dewpoint": {"english": "57", "metric": "14"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "60",
-		"wspd": {"english": "12", "metric": "20"},
-		"wdir": {"dir": "WSW", "degrees": "255"},
-		"wx": "",
-		"uvi": "4",
-		"humidity": "67",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "68", "metric": "20"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.98", "metric": "1015"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "13","hour_padded": "13","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376683200","pretty": "1:00 PM PDT on August 16, 2013","civil": "1:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "71", "metric": "22"},
-		"dewpoint": {"english": "57", "metric": "14"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "60",
-		"wspd": {"english": "14", "metric": "22"},
-		"wdir": {"dir": "WSW", "degrees": "255"},
-		"wx": "",
-		"uvi": "4",
-		"humidity": "62",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "71", "metric": "22"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.98", "metric": "1015"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "14","hour_padded": "14","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376686800","pretty": "2:00 PM PDT on August 16, 2013","civil": "2:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "73", "metric": "23"},
-		"dewpoint": {"english": "57", "metric": "14"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "60",
-		"wspd": {"english": "15", "metric": "24"},
-		"wdir": {"dir": "West", "degrees": "259"},
-		"wx": "",
-		"uvi": "5",
-		"humidity": "58",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "73", "metric": "23"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.96", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "15","hour_padded": "15","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376690400","pretty": "3:00 PM PDT on August 16, 2013","civil": "3:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "71", "metric": "22"},
-		"dewpoint": {"english": "56", "metric": "14"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "60",
-		"wspd": {"english": "15", "metric": "25"},
-		"wdir": {"dir": "West", "degrees": "259"},
-		"wx": "",
-		"uvi": "5",
-		"humidity": "60",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "71", "metric": "22"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.96", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "16","hour_padded": "16","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376694000","pretty": "4:00 PM PDT on August 16, 2013","civil": "4:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "70", "metric": "21"},
-		"dewpoint": {"english": "56", "metric": "13"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "60",
-		"wspd": {"english": "16", "metric": "25"},
-		"wdir": {"dir": "West", "degrees": "259"},
-		"wx": "",
-		"uvi": "5",
-		"humidity": "63",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "70", "metric": "21"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.96", "metric": "1014"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "17","hour_padded": "17","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376697600","pretty": "5:00 PM PDT on August 16, 2013","civil": "5:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "68", "metric": "20"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "50",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "265"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "65",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "68", "metric": "20"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "0.00", "metric": "0.00"},
-		"pop": "0",
-		"mslp": {"english": "29.93", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "18","hour_padded": "18","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376701200","pretty": "6:00 PM PDT on August 16, 2013","civil": "6:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "66", "metric": "19"},
-		"dewpoint": {"english": "55", "metric": "13"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "50",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "265"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "67",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "66", "metric": "19"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.93", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "19","hour_padded": "19","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376704800","pretty": "7:00 PM PDT on August 16, 2013","civil": "7:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "65", "metric": "18"},
-		"dewpoint": {"english": "54", "metric": "12"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "50",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "265"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "68",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "65", "metric": "18"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.93", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "20","hour_padded": "20","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376708400","pretty": "8:00 PM PDT on August 16, 2013","civil": "8:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "63", "metric": "17"},
-		"dewpoint": {"english": "54", "metric": "12"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "50",
-		"wspd": {"english": "16", "metric": "26"},
-		"wdir": {"dir": "West", "degrees": "265"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "70",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "63", "metric": "17"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.94", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "21","hour_padded": "21","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376712000","pretty": "9:00 PM PDT on August 16, 2013","civil": "9:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "62", "metric": "17"},
-		"dewpoint": {"english": "54", "metric": "12"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "50",
-		"wspd": {"english": "14", "metric": "23"},
-		"wdir": {"dir": "West", "degrees": "265"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "72",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "62", "metric": "17"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.94", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "22","hour_padded": "22","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376715600","pretty": "10:00 PM PDT on August 16, 2013","civil": "10:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "62", "metric": "16"},
-		"dewpoint": {"english": "54", "metric": "12"},
-		"condition": "Partly Cloudy",
-		"icon": "partlycloudy",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
-		"fctcode": "2",
-		"sky": "50",
-		"wspd": {"english": "13", "metric": "21"},
-		"wdir": {"dir": "West", "degrees": "265"},
-		"wx": "",
-		"uvi": "0",
-		"humidity": "75",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "62", "metric": "16"},
-		"qpf": {"english": "", "metric": ""},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.94", "metric": "1013"}
-		}
-		,
-		{
-		"FCTTIME": {
-		"hour": "23","hour_padded": "23","min": "00","sec": "0","year": "2013","mon": "8","mon_padded": "08","mon_abbrev": "Aug","mday": "16","mday_padded": "16","yday": "227","isdst": "1","epoch": "1376719200","pretty": "11:00 PM PDT on August 16, 2013","civil": "11:00 PM","month_name": "August","month_name_abbrev": "Aug","weekday_name": "Friday","weekday_name_night": "Friday Night","weekday_name_abbrev": "Fri","weekday_name_unlang": "Friday","weekday_name_night_unlang": "Friday Night","ampm": "PM","tz": "","age": ""
-		},
-		"temp": {"english": "61", "metric": "16"},
-		"dewpoint": {"english": "54", "metric": "12"},
-		"condition": "Fog",
-		"icon": "fog",
-		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
-		"fctcode": "6",
-		"sky": "100",
-		"wspd": {"english": "11", "metric": "18"},
-		"wdir": {"dir": "WSW", "degrees": "242"},
-		"wx": "Patchy Fog",
-		"uvi": "0",
-		"humidity": "77",
-		"windchill": {"english": "-9998", "metric": "-9998"},
-		"heatindex": {"english": "-9998", "metric": "-9998"},
-		"feelslike": {"english": "61", "metric": "16"},
-		"qpf": {"english": "0.00", "metric": "0.00"},
-		"snow": {"english": "", "metric": ""},
-		"pop": "0",
-		"mslp": {"english": "29.98", "metric": "1015"}
-		}
-	]
+    "response": {
+        "version": "0.1",
+        "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+        "features": {
+            "hourly": 1
+        }
+    },
+    "hourly_forecast": [{
+        "FCTTIME": {
+            "hour": "12",
+            "hour_padded": "12",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376593200",
+            "pretty": "12:00 PM PDT on August 15, 2013",
+            "civil": "12:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "70",
+            "metric": "21"
+        },
+        "dewpoint": {
+            "english": "58",
+            "metric": "14"
+        },
+        "condition": "Clear",
+        "icon": "clear",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/clear.gif",
+        "fctcode": "1",
+        "sky": "25",
+        "wspd": {
+            "english": "13",
+            "metric": "21"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "260"
+        },
+        "wx": "",
+        "uvi": "5",
+        "humidity": "67",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "70",
+            "metric": "21"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.96",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "13",
+            "hour_padded": "13",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376596800",
+            "pretty": "1:00 PM PDT on August 15, 2013",
+            "civil": "1:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "71",
+            "metric": "22"
+        },
+        "dewpoint": {
+            "english": "58",
+            "metric": "15"
+        },
+        "condition": "Clear",
+        "icon": "clear",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/clear.gif",
+        "fctcode": "1",
+        "sky": "25",
+        "wspd": {
+            "english": "15",
+            "metric": "24"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "260"
+        },
+        "wx": "",
+        "uvi": "5",
+        "humidity": "65",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "71",
+            "metric": "22"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.96",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "14",
+            "hour_padded": "14",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376600400",
+            "pretty": "2:00 PM PDT on August 15, 2013",
+            "civil": "2:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "73",
+            "metric": "23"
+        },
+        "dewpoint": {
+            "english": "59",
+            "metric": "15"
+        },
+        "condition": "Clear",
+        "icon": "clear",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/clear.gif",
+        "fctcode": "1",
+        "sky": "25",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "264"
+        },
+        "wx": "",
+        "uvi": "6",
+        "humidity": "63",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "73",
+            "metric": "23"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.95",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "15",
+            "hour_padded": "15",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376604000",
+            "pretty": "3:00 PM PDT on August 15, 2013",
+            "civil": "3:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "72",
+            "metric": "22"
+        },
+        "dewpoint": {
+            "english": "58",
+            "metric": "15"
+        },
+        "condition": "Clear",
+        "icon": "clear",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/clear.gif",
+        "fctcode": "1",
+        "sky": "25",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "264"
+        },
+        "wx": "",
+        "uvi": "6",
+        "humidity": "64",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "72",
+            "metric": "22"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.95",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "16",
+            "hour_padded": "16",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376607600",
+            "pretty": "4:00 PM PDT on August 15, 2013",
+            "civil": "4:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "71",
+            "metric": "22"
+        },
+        "dewpoint": {
+            "english": "58",
+            "metric": "14"
+        },
+        "condition": "Clear",
+        "icon": "clear",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/clear.gif",
+        "fctcode": "1",
+        "sky": "25",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "264"
+        },
+        "wx": "",
+        "uvi": "6",
+        "humidity": "65",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "71",
+            "metric": "22"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.95",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "17",
+            "hour_padded": "17",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376611200",
+            "pretty": "5:00 PM PDT on August 15, 2013",
+            "civil": "5:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "70",
+            "metric": "21"
+        },
+        "dewpoint": {
+            "english": "57",
+            "metric": "14"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "48",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "270"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "66",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "70",
+            "metric": "21"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.91",
+            "metric": "1012"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "18",
+            "hour_padded": "18",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376614800",
+            "pretty": "6:00 PM PDT on August 15, 2013",
+            "civil": "6:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "68",
+            "metric": "20"
+        },
+        "dewpoint": {
+            "english": "56",
+            "metric": "14"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "48",
+        "wspd": {
+            "english": "15",
+            "metric": "24"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "270"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "68",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "68",
+            "metric": "20"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.91",
+            "metric": "1012"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "19",
+            "hour_padded": "19",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376618400",
+            "pretty": "7:00 PM PDT on August 15, 2013",
+            "civil": "7:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "66",
+            "metric": "19"
+        },
+        "dewpoint": {
+            "english": "56",
+            "metric": "13"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "48",
+        "wspd": {
+            "english": "14",
+            "metric": "23"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "270"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "71",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "66",
+            "metric": "19"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.91",
+            "metric": "1012"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "20",
+            "hour_padded": "20",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376622000",
+            "pretty": "8:00 PM PDT on August 15, 2013",
+            "civil": "8:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "64",
+            "metric": "18"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "48",
+        "wspd": {
+            "english": "13",
+            "metric": "21"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "270"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "73",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "64",
+            "metric": "18"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.92",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "21",
+            "hour_padded": "21",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376625600",
+            "pretty": "9:00 PM PDT on August 15, 2013",
+            "civil": "9:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "64",
+            "metric": "18"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "48",
+        "wspd": {
+            "english": "12",
+            "metric": "19"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "270"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "75",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "64",
+            "metric": "18"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.92",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "22",
+            "hour_padded": "22",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376629200",
+            "pretty": "10:00 PM PDT on August 15, 2013",
+            "civil": "10:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "63",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "48",
+        "wspd": {
+            "english": "10",
+            "metric": "16"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "270"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "76",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "63",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.92",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "23",
+            "hour_padded": "23",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "15",
+            "mday_padded": "15",
+            "yday": "226",
+            "isdst": "1",
+            "epoch": "1376632800",
+            "pretty": "11:00 PM PDT on August 15, 2013",
+            "civil": "11:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Thursday",
+            "weekday_name_night": "Thursday Night",
+            "weekday_name_abbrev": "Thu",
+            "weekday_name_unlang": "Thursday",
+            "weekday_name_night_unlang": "Thursday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "63",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "81",
+        "wspd": {
+            "english": "9",
+            "metric": "14"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "262"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "78",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "63",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.97",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "0",
+            "hour_padded": "00",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376636400",
+            "pretty": "12:00 AM PDT on August 16, 2013",
+            "civil": "12:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "63",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "81",
+        "wspd": {
+            "english": "9",
+            "metric": "14"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "262"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "78",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "63",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.97",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "1",
+            "hour_padded": "01",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376640000",
+            "pretty": "1:00 AM PDT on August 16, 2013",
+            "civil": "1:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "63",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "81",
+        "wspd": {
+            "english": "8",
+            "metric": "13"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "262"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "79",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "63",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.97",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "2",
+            "hour_padded": "02",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376643600",
+            "pretty": "2:00 AM PDT on August 16, 2013",
+            "civil": "2:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "63",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "81",
+        "wspd": {
+            "english": "8",
+            "metric": "13"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "244"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "79",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "63",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.95",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "3",
+            "hour_padded": "03",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376647200",
+            "pretty": "3:00 AM PDT on August 16, 2013",
+            "civil": "3:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "62",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "81",
+        "wspd": {
+            "english": "7",
+            "metric": "12"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "244"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "79",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "62",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.95",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "4",
+            "hour_padded": "04",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376650800",
+            "pretty": "4:00 AM PDT on August 16, 2013",
+            "civil": "4:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "62",
+            "metric": "16"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "81",
+        "wspd": {
+            "english": "7",
+            "metric": "11"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "244"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "80",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "62",
+            "metric": "16"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.95",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "5",
+            "hour_padded": "05",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376654400",
+            "pretty": "5:00 AM PDT on August 16, 2013",
+            "civil": "5:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "61",
+            "metric": "16"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "99",
+        "wspd": {
+            "english": "6",
+            "metric": "10"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "244"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "80",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "61",
+            "metric": "16"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.94",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "6",
+            "hour_padded": "06",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376658000",
+            "pretty": "6:00 AM PDT on August 16, 2013",
+            "civil": "6:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "62",
+            "metric": "16"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "99",
+        "wspd": {
+            "english": "6",
+            "metric": "10"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "244"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "80",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "62",
+            "metric": "16"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.94",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "7",
+            "hour_padded": "07",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376661600",
+            "pretty": "7:00 AM PDT on August 16, 2013",
+            "civil": "7:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "62",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/fog.gif",
+        "fctcode": "6",
+        "sky": "99",
+        "wspd": {
+            "english": "7",
+            "metric": "11"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "244"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "79",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "62",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.94",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "8",
+            "hour_padded": "08",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376665200",
+            "pretty": "8:00 AM PDT on August 16, 2013",
+            "civil": "8:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "63",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/fog.gif",
+        "fctcode": "6",
+        "sky": "99",
+        "wspd": {
+            "english": "7",
+            "metric": "11"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "252"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "79",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "63",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.97",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "9",
+            "hour_padded": "09",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376668800",
+            "pretty": "9:00 AM PDT on August 16, 2013",
+            "civil": "9:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "64",
+            "metric": "18"
+        },
+        "dewpoint": {
+            "english": "56",
+            "metric": "13"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/fog.gif",
+        "fctcode": "6",
+        "sky": "99",
+        "wspd": {
+            "english": "8",
+            "metric": "13"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "252"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "76",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "64",
+            "metric": "18"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.97",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "10",
+            "hour_padded": "10",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376672400",
+            "pretty": "10:00 AM PDT on August 16, 2013",
+            "civil": "10:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "65",
+            "metric": "18"
+        },
+        "dewpoint": {
+            "english": "56",
+            "metric": "14"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/fog.gif",
+        "fctcode": "6",
+        "sky": "99",
+        "wspd": {
+            "english": "10",
+            "metric": "16"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "252"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "74",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "65",
+            "metric": "18"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.97",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "11",
+            "hour_padded": "11",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376676000",
+            "pretty": "11:00 AM PDT on August 16, 2013",
+            "civil": "11:00 AM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "AM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "66",
+            "metric": "19"
+        },
+        "dewpoint": {
+            "english": "57",
+            "metric": "14"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "60",
+        "wspd": {
+            "english": "11",
+            "metric": "18"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "255"
+        },
+        "wx": "",
+        "uvi": "4",
+        "humidity": "71",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "66",
+            "metric": "19"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.98",
+            "metric": "1015"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "12",
+            "hour_padded": "12",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376679600",
+            "pretty": "12:00 PM PDT on August 16, 2013",
+            "civil": "12:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "68",
+            "metric": "20"
+        },
+        "dewpoint": {
+            "english": "57",
+            "metric": "14"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "60",
+        "wspd": {
+            "english": "12",
+            "metric": "20"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "255"
+        },
+        "wx": "",
+        "uvi": "4",
+        "humidity": "67",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "68",
+            "metric": "20"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.98",
+            "metric": "1015"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "13",
+            "hour_padded": "13",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376683200",
+            "pretty": "1:00 PM PDT on August 16, 2013",
+            "civil": "1:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "71",
+            "metric": "22"
+        },
+        "dewpoint": {
+            "english": "57",
+            "metric": "14"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "60",
+        "wspd": {
+            "english": "14",
+            "metric": "22"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "255"
+        },
+        "wx": "",
+        "uvi": "4",
+        "humidity": "62",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "71",
+            "metric": "22"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.98",
+            "metric": "1015"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "14",
+            "hour_padded": "14",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376686800",
+            "pretty": "2:00 PM PDT on August 16, 2013",
+            "civil": "2:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "73",
+            "metric": "23"
+        },
+        "dewpoint": {
+            "english": "57",
+            "metric": "14"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "60",
+        "wspd": {
+            "english": "15",
+            "metric": "24"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "259"
+        },
+        "wx": "",
+        "uvi": "5",
+        "humidity": "58",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "73",
+            "metric": "23"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.96",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "15",
+            "hour_padded": "15",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376690400",
+            "pretty": "3:00 PM PDT on August 16, 2013",
+            "civil": "3:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "71",
+            "metric": "22"
+        },
+        "dewpoint": {
+            "english": "56",
+            "metric": "14"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "60",
+        "wspd": {
+            "english": "15",
+            "metric": "25"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "259"
+        },
+        "wx": "",
+        "uvi": "5",
+        "humidity": "60",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "71",
+            "metric": "22"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.96",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "16",
+            "hour_padded": "16",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376694000",
+            "pretty": "4:00 PM PDT on August 16, 2013",
+            "civil": "4:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "70",
+            "metric": "21"
+        },
+        "dewpoint": {
+            "english": "56",
+            "metric": "13"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "60",
+        "wspd": {
+            "english": "16",
+            "metric": "25"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "259"
+        },
+        "wx": "",
+        "uvi": "5",
+        "humidity": "63",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "70",
+            "metric": "21"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.96",
+            "metric": "1014"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "17",
+            "hour_padded": "17",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376697600",
+            "pretty": "5:00 PM PDT on August 16, 2013",
+            "civil": "5:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "68",
+            "metric": "20"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "50",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "265"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "65",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "68",
+            "metric": "20"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.93",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "18",
+            "hour_padded": "18",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376701200",
+            "pretty": "6:00 PM PDT on August 16, 2013",
+            "civil": "6:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "66",
+            "metric": "19"
+        },
+        "dewpoint": {
+            "english": "55",
+            "metric": "13"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "50",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "265"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "67",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "66",
+            "metric": "19"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.93",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "19",
+            "hour_padded": "19",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376704800",
+            "pretty": "7:00 PM PDT on August 16, 2013",
+            "civil": "7:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "65",
+            "metric": "18"
+        },
+        "dewpoint": {
+            "english": "54",
+            "metric": "12"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "50",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "265"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "68",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "65",
+            "metric": "18"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.93",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "20",
+            "hour_padded": "20",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376708400",
+            "pretty": "8:00 PM PDT on August 16, 2013",
+            "civil": "8:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "63",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "54",
+            "metric": "12"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "50",
+        "wspd": {
+            "english": "16",
+            "metric": "26"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "265"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "70",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "63",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.94",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "21",
+            "hour_padded": "21",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376712000",
+            "pretty": "9:00 PM PDT on August 16, 2013",
+            "civil": "9:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "62",
+            "metric": "17"
+        },
+        "dewpoint": {
+            "english": "54",
+            "metric": "12"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "50",
+        "wspd": {
+            "english": "14",
+            "metric": "23"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "265"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "72",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "62",
+            "metric": "17"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.94",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "22",
+            "hour_padded": "22",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376715600",
+            "pretty": "10:00 PM PDT on August 16, 2013",
+            "civil": "10:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "62",
+            "metric": "16"
+        },
+        "dewpoint": {
+            "english": "54",
+            "metric": "12"
+        },
+        "condition": "Partly Cloudy",
+        "icon": "partlycloudy",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_partlycloudy.gif",
+        "fctcode": "2",
+        "sky": "50",
+        "wspd": {
+            "english": "13",
+            "metric": "21"
+        },
+        "wdir": {
+            "dir": "West",
+            "degrees": "265"
+        },
+        "wx": "",
+        "uvi": "0",
+        "humidity": "75",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "62",
+            "metric": "16"
+        },
+        "qpf": {
+            "english": "",
+            "metric": ""
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.94",
+            "metric": "1013"
+        }
+    }, {
+        "FCTTIME": {
+            "hour": "23",
+            "hour_padded": "23",
+            "min": "00",
+            "sec": "0",
+            "year": "2013",
+            "mon": "8",
+            "mon_padded": "08",
+            "mon_abbrev": "Aug",
+            "mday": "16",
+            "mday_padded": "16",
+            "yday": "227",
+            "isdst": "1",
+            "epoch": "1376719200",
+            "pretty": "11:00 PM PDT on August 16, 2013",
+            "civil": "11:00 PM",
+            "month_name": "August",
+            "month_name_abbrev": "Aug",
+            "weekday_name": "Friday",
+            "weekday_name_night": "Friday Night",
+            "weekday_name_abbrev": "Fri",
+            "weekday_name_unlang": "Friday",
+            "weekday_name_night_unlang": "Friday Night",
+            "ampm": "PM",
+            "tz": "",
+            "age": ""
+        },
+        "temp": {
+            "english": "61",
+            "metric": "16"
+        },
+        "dewpoint": {
+            "english": "54",
+            "metric": "12"
+        },
+        "condition": "Fog",
+        "icon": "fog",
+        "icon_url": "http://icons-ak.wxug.com/i/c/k/nt_fog.gif",
+        "fctcode": "6",
+        "sky": "100",
+        "wspd": {
+            "english": "11",
+            "metric": "18"
+        },
+        "wdir": {
+            "dir": "WSW",
+            "degrees": "242"
+        },
+        "wx": "Patchy Fog",
+        "uvi": "0",
+        "humidity": "77",
+        "windchill": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "heatindex": {
+            "english": "-9998",
+            "metric": "-9998"
+        },
+        "feelslike": {
+            "english": "61",
+            "metric": "16"
+        },
+        "qpf": {
+            "english": "0.00",
+            "metric": "0.00"
+        },
+        "snow": {
+            "english": "",
+            "metric": ""
+        },
+        "pop": "0",
+        "mslp": {
+            "english": "29.98",
+            "metric": "1015"
+        }
+    }]
 }

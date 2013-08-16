@@ -93,15 +93,118 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#container {
+    width: 1040px;
+    margin: 20px auto;
+    background: url('../img/bg.gif') repeat-y left top;
+    border: 1px solid gray;
+    min-height: 400px;
+}
 
+#form-panel {
+    width: 260px;
+    padding: 10px;
+    float: left;
+}
 
+#location-panel {
+    width: 740px;
+    padding: 10px;
+    float: left;
+    display: none;
+}
 
+.show {
+    display: block!important;
+}
 
+.hide {
+    display: none;
+}
 
+h1 {
+    margin: 0;
+}
 
+input {
+    width: 180px;
+}
 
+button {
+    margin-left: 5px;
+}
 
+#display-type {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+#display-type li {
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+#display-type li:hover {
+    background: #8ecdee;
+}
+
+#hourly-forecast {
+    padding: 0;
+    list-style: none;
+}
+
+#hourly-forecast li {
+    border-bottom: 1px solid #dadada;
+    background: #ffeccf;
+    padding: 5px;
+}
+
+#hourly-forecast .time {
+    width: 100px;
+}
+
+#hourly-forecast .dates, #hourly-forecast .time, #hourly-forecast .formatted-date {
+    display: block;
+}
+
+#hourly-forecast .dates {
+    float: left;
+    display: block;
+
+}
+
+#hourly-forecast .temperature {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-left: 25px;
+    width: 100px;
+}
+
+#hourly-forecast .humidity {
+    width: 100px;
+    margin-left: 25px;
+    float: left;
+    text-align: center;
+}
+
+#hourly-forecast .condition-wrapper {
+    float: left;
+    text-align: center;
+    margin-left: 25px;
+    width: 100px;
+}
+
+#hourly-forecast .condition-wrapper img {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+}
 
 
 
