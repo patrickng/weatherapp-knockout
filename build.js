@@ -2,7 +2,8 @@
 	baseUrl: "./",
 	optimize: "none",
 	paths: {
-		jquery: 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min',
+		modernizr: 'vendor/modernizr-2.6.2.min'
+		jquery: 'vendor/jquery-1.9.1.min',
 		knockout: 'vendor/knockout-2.3.0',
 		Location: 'app/Location',
 		HourlyEntry: 'app/HourlyEntry',
