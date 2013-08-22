@@ -1,4 +1,4 @@
-define(['vendor/knockout-2.3.0', 'app/HourlyEntry', 'app/TenDayEntry'], function(ko, HourlyEntry, TenDayEntry){
+define(['knockout', 'HourlyEntry', 'TenDayEntry'], function(ko, HourlyEntry, TenDayEntry){
 
 	function Location(name) {
 		var self = this;

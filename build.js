@@ -1,7 +1,8 @@
-require.config({
-	baseUrl: "/js",
+({
+	baseUrl: "./",
+	optimize: "none",
 	paths: {
-		jquery: '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min',
+		jquery: 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min',
 		knockout: 'vendor/knockout-2.3.0',
 		Location: 'app/Location',
 		HourlyEntry: 'app/HourlyEntry',
@@ -9,8 +10,4 @@ require.config({
 		DetailedLocationViewModel: 'app/DetailedLocationViewModel',
 		AppViewModel: 'app/AppViewModel'
 	}
-});
-
-require(['jquery', 'knockout', 'AppViewModel'], function($, ko, AppViewModel) {
-    ko.applyBindings(new AppViewModel());
-});
+})

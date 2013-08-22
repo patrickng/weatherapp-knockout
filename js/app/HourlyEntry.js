@@ -1,4 +1,4 @@
-define(['vendor/knockout-2.3.0'], function(ko){
+define(['knockout'], function(ko){
 
 	function HourlyEntry(time, temperature, humidity, condition, condition_icon_url) {
 		var self = this;

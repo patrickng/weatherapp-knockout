@@ -1,5 +1,4 @@
-
-define(['vendor/knockout-2.3.0', 'app/Location', 'app/DetailedLocationViewModel'], function(ko, Location, DetailedLocationViewModel) {
+define(['knockout', 'Location', 'DetailedLocationViewModel'], function(ko, Location, DetailedLocationViewModel) {
 	function AppViewModel() {
 		var self = this;
 		var locationExistsInArray = function(name, array) {
