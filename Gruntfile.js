@@ -9,6 +9,7 @@ module.exports = function(grunt) {
       compile: {
         options: {
           name: 'init',
+          insertRequire: ['init'],
           baseUrl: "js",
           mainConfigFile: 'js/init.js',
           out: "js/build/app.min.js"

@@ -12,9 +12,9 @@ require.config({
 	}
 });
 
-require(['jquery', 'knockout', 'AppViewModel'], function($, ko, AppViewModel) {
-    ko.applyBindings(new AppViewModel());
-});
+// require(['jquery', 'knockout', 'AppViewModel'], function($, ko, AppViewModel) {
+//     ko.applyBindings(new AppViewModel());
+// });
 
 define(function(require) {
 	var $ = require('jquery');
@@ -22,5 +22,4 @@ define(function(require) {
 	var AppViewModel = require('AppViewModel');
 
 	ko.applyBindings(new AppViewModel());
-	return function() {};
 });
