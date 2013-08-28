@@ -11,10 +11,20 @@ define(['knockout', 'Location', 'DetailedLocationViewModel'], function(ko, Locat
 
 		self.currentSelectedLocation = ko.observable();
 		self.locationName = ko.observable();
-		self.locations = ko.observableArray([
-			new Location("New York, NY"), 
-			new Location("San Francisco, CA")
-		]);
+		if (localStorage['locations'] === undefined) {
+			self.locations = ko.observableArray([
+				new Location("New York, NY"), 
+				new Location("San Francisco, CA")
+			]);
+			localStorage['locations'] = JSON.stringify(['New York, NY', 'San Francisco, CA']);
+		} else {
+			var jsonData = localStorage['locations'];
+			var parsed = JSON.parse(jsonData);
+			self.locations = ko.observableArray();
+			ko.utils.arrayForEach(parsed, function(location) {
+				self.locations.push(new Location(location.name));
+			})
+		}
 		self.displayLocationPanel = ko.computed(function() {
 			return self.currentSelectedLocation() ? "show" : "hide";
 		}, AppViewModel);
@@ -22,6 +32,7 @@ define(['knockout', 'Location', 'DetailedLocationViewModel'], function(ko, Locat
 		self.addLocation = function() {
 			if ((self.locationName() != "") && !locationExistsInArray(self.locationName(), self.locations())) {
 				self.locations.push(new Location(self.locationName()));
+				localStorage['locations'] = JSON.stringify(self.locations());
 			}
 			self.locationName("");
 		};

@@ -10,9 +10,9 @@ module.exports = function(grunt) {
         options: {
           name: 'init',
           insertRequire: ['init'],
-          baseUrl: "js",
+          baseUrl: 'js',
           mainConfigFile: 'js/init.js',
-          out: "js/build/app.min.js"
+          out: 'js/build/app.min.js'
         }
       }
     }

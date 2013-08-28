@@ -14,10 +14,10 @@ define(['knockout', 'HourlyEntry', 'TenDayEntry'], function(ko, HourlyEntry, Ten
 		};
 		self.loadData = function() {
 			var endpointURLs = {
-				hourlyForecast: "http://api.wunderground.com/api/420cc13d75d8f243/hourly/q/"+self.state()+"/"+self.city()+".json?callback=?",
-				tenDayForecast: "http://api.wunderground.com/api/420cc13d75d8f243/forecast10day/q/"+self.state()+"/"+self.city()+".json?callback=?"
-				// hourlyForecast: "/js/hourly.json",
-				// tenDayForecast: "/js/10day.json"
+				hourlyForecast: 'http://api.wunderground.com/api/420cc13d75d8f243/hourly/q/'+self.state()+'/'+self.city()+'.json?callback=?',
+				tenDayForecast: 'http://api.wunderground.com/api/420cc13d75d8f243/forecast10day/q/'+self.state()+'/'+self.city()+'.json?callback=?'
+				// hourlyForecast: '/js/hourly.json',
+				// tenDayForecast: '/js/10day.json'
 			};
 
 			$.getJSON(endpointURLs.hourlyForecast, function(data){
@@ -25,8 +25,8 @@ define(['knockout', 'HourlyEntry', 'TenDayEntry'], function(ko, HourlyEntry, Ten
 					self.hourlyForecast.push(
 						new HourlyEntry(
 							item.FCTTIME, 
-							item.temp.english + "F", 
-							item.humidity + "%",
+							item.temp.english + 'F', 
+							item.humidity + '%',
 							item.condition, 
 							item.icon_url
 						)
@@ -39,8 +39,8 @@ define(['knockout', 'HourlyEntry', 'TenDayEntry'], function(ko, HourlyEntry, Ten
 					self.tenDayForecast.push(
 						new TenDayEntry(
 							item.date.pretty, 
-							item.high.fahrenheit + "F",
-							item.low.fahrenheit + "F", 
+							item.high.fahrenheit + 'F',
+							item.low.fahrenheit + 'F', 
 							item.conditions,
 							item.icon_url
 						)

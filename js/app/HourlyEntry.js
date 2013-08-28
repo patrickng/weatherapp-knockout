@@ -11,7 +11,7 @@ define(['knockout'], function(ko){
 		self.condition = ko.observable(condition);
 		self.condition_url = ko.observable(condition_icon_url);
 		self.shouldShowDay = ko.computed(function() {
-			if ((time.hour == "23") || (time.hour == "0")) {
+			if ((time.hour == '23') || (time.hour == '0')) {
 				return true;
 			}
 		});

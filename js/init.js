@@ -1,6 +1,6 @@
 require.config({
-	baseUrl: "js",
-	optimize: "none",
+	baseUrl: 'js',
+	optimize: 'none',
 	paths: {
 		jquery: 'vendor/jquery-1.9.1.min',
 		knockout: 'vendor/knockout-2.3.0',
