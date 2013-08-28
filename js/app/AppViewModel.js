@@ -39,6 +39,11 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 		self.selectLocation = function(location) {
 			self.currentSelectedLocation(new DetailedLocationViewModel(location));
 		};
+		self.removeLocation = function(location) {
+			// console.log(location);
+			self.locations.remove(location);
+			locationStorage.set(self.locations);
+		};
 	}
 
 	return AppViewModel;

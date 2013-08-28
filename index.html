@@ -31,7 +31,10 @@
 
                 Select a city to check its weather.
                 <ul data-bind="foreach: locations">
-                    <li><a href="" data-bind="click: $parent.selectLocation, text: name"></a></li>
+                    <li>
+                        <a href="" data-bind="click: $parent.removeLocation">x</a> 
+                        <a href="" data-bind="click: $parent.selectLocation, text: name"></a>
+                    </li>
                 </ul>
             </div>
             <div id="location-panel" data-bind="if: currentSelectedLocation, css: $root.displayLocationPanel">
