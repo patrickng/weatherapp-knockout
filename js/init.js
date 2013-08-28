@@ -8,7 +8,8 @@ require.config({
 		HourlyEntry: 'app/HourlyEntry',
 		TenDayEntry: 'app/TenDayEntry',
 		DetailedLocationViewModel: 'app/DetailedLocationViewModel',
-		AppViewModel: 'app/AppViewModel'
+		AppViewModel: 'app/AppViewModel',
+		LocationStorage: 'app/LocationStorage'
 	}
 });
 

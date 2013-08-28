@@ -1,4 +1,4 @@
-define(['knockout', 'Location', 'DetailedLocationViewModel'], function(ko, Location, DetailedLocationViewModel) {
+define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'], function(ko, Location, DetailedLocationViewModel, locationStorage) {
 	function AppViewModel() {
 		var self = this;
 		var locationExistsInArray = function(name, array) {
@@ -11,19 +11,19 @@ define(['knockout', 'Location', 'DetailedLocationViewModel'], function(ko, Locat
 
 		self.currentSelectedLocation = ko.observable();
 		self.locationName = ko.observable();
-		if (localStorage['locations'] === undefined) {
+
+		if ((locationStorage.get() == null) || (locationStorage.get() == undefined) || (locationStorage.get() == "")) {
 			self.locations = ko.observableArray([
 				new Location("New York, NY"), 
 				new Location("San Francisco, CA")
 			]);
-			localStorage['locations'] = JSON.stringify(['New York, NY', 'San Francisco, CA']);
+			locationStorage.set(self.locations);
 		} else {
-			var jsonData = localStorage['locations'];
-			var parsed = JSON.parse(jsonData);
 			self.locations = ko.observableArray();
-			ko.utils.arrayForEach(parsed, function(location) {
-				self.locations.push(new Location(location.name));
-			})
+			ko.utils.arrayForEach(locationStorage.get(), function(location) {
+				var name = location.name;
+				self.locations.push(new Location(name));
+			});
 		}
 		self.displayLocationPanel = ko.computed(function() {
 			return self.currentSelectedLocation() ? "show" : "hide";
@@ -32,7 +32,7 @@ define(['knockout', 'Location', 'DetailedLocationViewModel'], function(ko, Locat
 		self.addLocation = function() {
 			if ((self.locationName() != "") && !locationExistsInArray(self.locationName(), self.locations())) {
 				self.locations.push(new Location(self.locationName()));
-				localStorage['locations'] = JSON.stringify(self.locations());
+				locationStorage.set(self.locations());
 			}
 			self.locationName("");
 		};
