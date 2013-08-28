@@ -17,12 +17,11 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 				new Location("New York, NY"), 
 				new Location("San Francisco, CA")
 			]);
-			locationStorage.set(self.locations);
+			locationStorage.set([{"name": "New York, NY"}, {"name": "San Francisco, CA"}]);
 		} else {
 			self.locations = ko.observableArray();
 			ko.utils.arrayForEach(locationStorage.get(), function(location) {
-				var name = location.name;
-				self.locations.push(new Location(name));
+				self.locations.push(new Location(location.name));
 			});
 		}
 		self.displayLocationPanel = ko.computed(function() {
