@@ -12,10 +12,16 @@ define(['knockout', 'HourlyEntry', 'TenDayEntry'], function(ko, HourlyEntry, Ten
 		self.state = function() {
 			return self.name.split(',')[1].replace(/\s+/g, '');
 		};
-		self.loadData = function() {
+	};
+
+	Location.prototype = {
+		loadData: function() {
+
+			var self = this;
+
 			var endpointURLs = {
-				hourlyForecast: 'http://api.wunderground.com/api/420cc13d75d8f243/hourly/q/'+self.state()+'/'+self.city()+'.json?callback=?',
-				tenDayForecast: 'http://api.wunderground.com/api/420cc13d75d8f243/forecast10day/q/'+self.state()+'/'+self.city()+'.json?callback=?'
+				hourlyForecast: 'http://api.wunderground.com/api/420cc13d75d8f243/hourly/q/'+this.state()+'/'+this.city()+'.json?callback=?',
+				tenDayForecast: 'http://api.wunderground.com/api/420cc13d75d8f243/forecast10day/q/'+this.state()+'/'+this.city()+'.json?callback=?'
 				// hourlyForecast: '/js/hourly.json',
 				// tenDayForecast: '/js/10day.json'
 			};
@@ -47,8 +53,8 @@ define(['knockout', 'HourlyEntry', 'TenDayEntry'], function(ko, HourlyEntry, Ten
 					);
 				});
 			});
-		};
-	};
+		}
+	}
 
 	return Location;
 
