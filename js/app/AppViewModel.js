@@ -12,6 +12,15 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 		self.currentSelectedLocation = ko.observable();
 		self.locationName = ko.observable();
 
+		var stripLocationNames = function(locations) {
+			var tempLocationArray = [];
+			ko.utils.arrayForEach(locations, function(location) {
+				var obj = { "name": location.name };
+				tempLocationArray.push(obj);
+			});
+			return tempLocationArray;
+		};
+
 		if ((locationStorage.get() == null) || (locationStorage.get() == undefined) || (locationStorage.get() == "")) {
 			self.locations = ko.observableArray([
 				new Location("New York, NY"), 
@@ -24,6 +33,7 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 				self.locations.push(new Location(location.name));
 			});
 		}
+
 		self.displayLocationPanel = ko.computed(function() {
 			return self.currentSelectedLocation() ? "show" : "hide";
 		}, AppViewModel);
@@ -31,7 +41,12 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 		self.addLocation = function() {
 			if ((self.locationName() != "") && !locationExistsInArray(self.locationName(), self.locations())) {
 				self.locations.push(new Location(self.locationName()));
-				locationStorage.set(self.locationName());
+				var tempLocationArray = [];
+				ko.utils.arrayForEach(self.locations(), function(location) {
+					var obj = { "name": location.name };
+					tempLocationArray.push(obj);
+				});
+				locationStorage.set(stripLocationNames(self.locations()));
 			}
 			self.locationName("");
 		};
@@ -40,7 +55,7 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 		};
 		self.removeLocation = function(location) {
 			self.locations.remove(location);
-			locationStorage.set(self.locations());
+			locationStorage.set(stripLocationNames(self.locations()));
 		};
 	}
 
