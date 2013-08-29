@@ -26,8 +26,14 @@ define(['knockout', 'HourlyEntry', 'TenDayEntry'], function(ko, HourlyEntry, Ten
 				// tenDayForecast: '/js/10day.json'
 			};
 
+			// console.log(this);
+			// (this) context is the object it was called on - Location
 			$.getJSON(endpointURLs.hourlyForecast, function(data){
+				// console.log(this); 
+				// (this) context changes to the json object
 				ko.utils.arrayMap(data.hourly_forecast, function(item) {
+					// console.log(this);
+					// (this) context changes to window. we want (this) to refer to the object it was called on so we do "var self = this;" on line 20
 					self.hourlyForecast.push(
 						new HourlyEntry(
 							item.FCTTIME, 
