@@ -31,7 +31,7 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 		self.addLocation = function() {
 			if ((self.locationName() != "") && !locationExistsInArray(self.locationName(), self.locations())) {
 				self.locations.push(new Location(self.locationName()));
-				locationStorage.set(self.locations());
+				locationStorage.set(self.locationName());
 			}
 			self.locationName("");
 		};
@@ -39,9 +39,8 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 			self.currentSelectedLocation(new DetailedLocationViewModel(location));
 		};
 		self.removeLocation = function(location) {
-			// console.log(location);
 			self.locations.remove(location);
-			locationStorage.set(self.locations);
+			locationStorage.set(self.locations());
 		};
 	}
 
