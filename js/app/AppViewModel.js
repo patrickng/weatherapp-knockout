@@ -26,7 +26,7 @@ define(['knockout', 'Location', 'DetailedLocationViewModel', 'LocationStorage'],
 				new Location("New York, NY"), 
 				new Location("San Francisco, CA")
 			]);
-			locationStorage.set([{"name": "New York, NY"}, {"name": "San Francisco, CA"}]);
+			locationStorage.set(stripLocationNames(self.locations()));
 		} else {
 			self.locations = ko.observableArray();
 			ko.utils.arrayForEach(locationStorage.get(), function(location) {
