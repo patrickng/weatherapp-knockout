@@ -14,12 +14,19 @@ module.exports = function(grunt) {
           mainConfigFile: 'js/init.js',
           out: 'js/build/app.min.js'
         }
+      },
+      watch: {
+        options: {
+          livereload: true
+        },
+        files: ["**/*.html", "**/*.js",  "**/js/**"],
       }
     }
   });
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks('grunt-contrib-requirejs');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
   grunt.registerTask('default');
